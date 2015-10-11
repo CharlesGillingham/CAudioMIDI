@@ -150,6 +150,8 @@
 		362FFAF71BC9EFED001EA833 /* CAudioMIDI.h in Headers */ = {isa = PBXBuildFile; fileRef = 362FFAF41BC9EFED001EA833 /* CAudioMIDI.h */; };
 		362FFAFA1BC9F028001EA833 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362FFAF91BC9F028001EA833 /* AudioUnit.framework */; };
 		362FFAFC1BC9F02D001EA833 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362FFAFB1BC9F02D001EA833 /* AudioToolbox.framework */; };
+		362FFAFF1BC9F0D3001EA833 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 362FFAFD1BC9F0D3001EA833 /* License.txt */; };
+		362FFB001BC9F0D3001EA833 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 362FFAFE1BC9F0D3001EA833 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -309,6 +311,8 @@
 		362FFAF41BC9EFED001EA833 /* CAudioMIDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAudioMIDI.h; sourceTree = "<group>"; };
 		362FFAF91BC9F028001EA833 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		362FFAFB1BC9F02D001EA833 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		362FFAFD1BC9F0D3001EA833 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		362FFAFE1BC9F0D3001EA833 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,6 +339,8 @@
 		362FF9931BC9EFB2001EA833 = {
 			isa = PBXGroup;
 			children = (
+				362FFAFD1BC9F0D3001EA833 /* License.txt */,
+				362FFAFE1BC9F0D3001EA833 /* README.md */,
 				362FF99F1BC9EFB2001EA833 /* CAudioMIDI */,
 				362FF9B91BC9EFD1001EA833 /* CAudioUnits */,
 				362FF9E21BC9EFD1001EA833 /* CGUI */,
@@ -1014,11 +1020,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362FFB001BC9F0D3001EA833 /* README.md in Resources */,
 				362FFAEC1BC9EFD1001EA833 /* CMusicWesternHarmonyViewController.xib in Resources */,
 				362FFA8D1BC9EFD1001EA833 /* CSliderTableViewController.xib in Resources */,
 				362FFAC91BC9EFD1001EA833 /* CMIDITransport.xib in Resources */,
 				362FFACA1BC9EFD1001EA833 /* play.tiff in Resources */,
 				362FFA8E1BC9EFD1001EA833 /* CSliderTableViewController2.xib in Resources */,
+				362FFAFF1BC9F0D3001EA833 /* License.txt in Resources */,
 				362FFA881BC9EFD1001EA833 /* CSliderTable Notes.rtf in Resources */,
 				362FFAC11BC9EFD1001EA833 /* CMIDIMonitor.xib in Resources */,
 				362FFACB1BC9EFD1001EA833 /* stop.tiff in Resources */,
